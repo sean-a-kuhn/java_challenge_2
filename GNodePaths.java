@@ -15,7 +15,7 @@ public class GNodePaths{
          // create ArrayList to hold GNodes
          ArrayList<GNode> al = new ArrayList<GNode>();
          
-         // run function that adds paths to ArrayList returnme
+         // run function that adds paths to ArrayList returnMe
          returnMe = findPaths(al, node);
          
          // send updated ArrayList to function call
@@ -23,11 +23,9 @@ public class GNodePaths{
       }   
    }
 
-   /* This function passes in a GNode of a directed graphs and generates an arraylist of GNode arraylists 
+   /* This function passes in a GNode of a directed graph and generates an arraylist of GNode arraylists 
    *     representing all possible paths from the passed in node to its leaf nodes
    *  function receives the following arguments:
-   *     Arraylist returnPaths: two-dimensional arraylist to hold arraylists of all GNode paths from passed in
-   *        root node to all leaf GNodes
    *     ArrayList currentPath: one-dimensional arraylist to hold list of orderd GNodes in path from
    *        root node to a leaf node
    *     GNode node: an object of type GNode
