@@ -64,7 +64,7 @@ public class GNodePaths{
    *     GNode node: an object of type GNode
    *  function returns two-dimensional arraylist
    */
-   public void ArrayList<ArrayList<GNode>> findPaths(ArrayList currentPath, GNode node){
+   public ArrayList<ArrayList<GNode>> findPaths(ArrayList currentPath, GNode node){
       
       // Generate 2d arraylist(arraylist of GNode arraylists) to return to method call
       ArrayList<ArrayList<Gnode>> returnPaths = new ArrayList<ArrayList<GNode>>();
