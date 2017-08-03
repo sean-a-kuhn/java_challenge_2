@@ -44,7 +44,7 @@ public class GNodePaths{
    public ArrayList<ArrayList<GNode>> paths(GNode node){
       
          // create ArrayList to hold ArrayLists of GNodes
-         ArrayList<ArrayList<GNode>> returnMe = new ArrayList<ArraList<GNode>>();
+         ArrayList<ArrayList<GNode>> returnMe = new ArrayList<ArrayList<GNode>>();
          
          // create ArrayList to hold GNodes
          ArrayList<GNode> al = new ArrayList<GNode>();
